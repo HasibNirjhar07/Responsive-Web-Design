@@ -79,12 +79,12 @@
   float: left;
 }
 .endbar-2 {
-  width: 80%;
+  width: 79%;
   height: 120px;
   background-color: brown;
-  float: left;
+  float: right;
 }
 
 body {
-  margin: 0 50px 0 50px;
+  margin: 10px 50px 10px 50px;
 }
