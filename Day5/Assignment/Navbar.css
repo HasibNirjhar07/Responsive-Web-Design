@@ -1,0 +1,41 @@
+.menu ul li a{
+    text-decoration: none;
+    background-color: aqua;
+    color: black;
+    font-size: 30px;
+    /* padding: 10px; */
+    transition: all linear 0.5s;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin: 20px;
+}
+.menu ul  {
+    list-style: none;
+}
+
+.menu ul li a:hover{
+    background-color: black;
+    color: white;
+}
+
+.menu ul li ul li a{
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+    background-color: aqua;
+    color: black;
+    transition: all linear 0.5s;
+}
+
+.menu ul li ul{
+    position: absolute;
+    display: none;
+}
+.menu ul li li{
+    display: block;
+}
+.menu ul li:hover ul{
+    display: block;
+}
