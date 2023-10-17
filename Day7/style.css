@@ -1,0 +1,17 @@
+@media (width <300px){
+    h1{
+        color:red;
+        font-size: 14px;
+    }
+}
+
+@media(orientation:landscape){
+    h1{
+        color:blue;
+        font-size: 14px;
+    }
+}
+
+
+
+
